@@ -1,3 +1,4 @@
+using DsmpPortfolio.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -22,6 +23,7 @@ namespace DsmpPortfolio
         {
 
             services.AddControllersWithViews();
+            services.AddTransient<IProjectRepository, ProjectRepository>();
 
             // In production, the React files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
