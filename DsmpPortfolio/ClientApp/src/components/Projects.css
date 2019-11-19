@@ -1,0 +1,24 @@
+﻿.Projects {
+    background-color: yellow;
+}
+.project {
+    background-color: green;
+    min-height: 300px;
+}
+.image {
+    width: 300px;
+    background-color: grey;
+    float: left;
+}
+img {
+    width: inherit;
+    float: left;
+}
+.paragraf {
+    float: right;
+    background-color: blue;
+}
+p {
+    float:inherit;
+}
+
