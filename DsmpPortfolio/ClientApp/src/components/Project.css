@@ -1,0 +1,20 @@
+﻿img {
+    width: 100%;
+    height: 100%;
+}
+
+.project {
+    background-color: green;
+    min-height: 300px;
+}
+
+.image {
+    width: 300px;
+    max-width: 300px;
+    background-color: grey;
+    float: left;
+}
+
+.paragraf {
+    background-color: blue;
+}
