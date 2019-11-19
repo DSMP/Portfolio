@@ -13,12 +13,14 @@ export class Projects extends Component {
     }
 
     static renderProjects(newProjects) {
+        let imgOnRight = false;
         return (
             <div className="projects">
                 {newProjects.map(p =>
                     <Project
                         img={"https://alebank.pl/wp-content/uploads/2019/10/IT-AdobeStock_200146317-autor-Gorodenkoff.jpg"}
-                        paragraph={p} />
+                        paragraph={p}
+                        isRightImg={imgOnRight = !imgOnRight} />
                 )}
             </div>
         );
