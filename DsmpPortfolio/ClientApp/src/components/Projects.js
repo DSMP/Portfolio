@@ -12,28 +12,32 @@ export class Projects extends Component {
         this.populateProjectsData();
     }
 
-    static renderProjects(projects) {
-        return(
-            <Project
-                img={"https://alebank.pl/wp-content/uploads/2019/10/IT-AdobeStock_200146317-autor-Gorodenkoff.jpg"}
-                paragraph="lorem ipsum..." />
-        )
+    static renderProjects(newProjects) {
+        return (
+            <div className="projects">
+                {newProjects.map(p =>
+                    <Project
+                        img={"https://alebank.pl/wp-content/uploads/2019/10/IT-AdobeStock_200146317-autor-Gorodenkoff.jpg"}
+                        paragraph={p} />
+                )}
+            </div>
+        );
     }
 
     render() {
-        let contents = this.state.loading
-            ? <p><em>Loading...</em></p>
+        let contents = this.state.isLoading
+            ? <p><em>Loading projects...</em></p>
             : Projects.renderProjects(this.state.projects);
 
         return (
-            <div class="projects">
+            <div>
                 {contents}
             </div>
         )
     }
     async populateProjectsData() {
-        const response = await fetch('projects');
+        const response = await fetch('api/projects');
         const data = await response.json();
-        this.setState({ projects: data, loading: false });
+        this.setState({ projects: data, isLoading: false });
     }
 }
