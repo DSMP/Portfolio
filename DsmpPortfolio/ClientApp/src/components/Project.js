@@ -12,6 +12,7 @@ export class Project extends Component {
                 <div class="image" style={floating}>
                     <img src={this.props.img} />
                 </div>
+                <div class="spacer" style={floating} />
                 <div class="paragraf">
                     <p>{this.props.paragraph}</p>
                 </div>

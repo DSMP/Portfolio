@@ -4,7 +4,6 @@
 }
 
 .project {
-    background-color: green;
     min-height: 300px;
     padding: 67px 10px 0px 10px;
 }
@@ -12,10 +11,14 @@
 .image {
     width: 300px;
     max-width: 300px;
-    background-color: grey;
     float: left;
 }
 
 .paragraf {
-    background-color: blue;
+}
+
+.spacer{
+    width:30px;
+    height:300px;
+    float:left;
 }
