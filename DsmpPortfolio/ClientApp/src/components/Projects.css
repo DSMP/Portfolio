@@ -1,4 +1,9 @@
-﻿.Projects {
+﻿img {
+    width:100%;
+    height:100%;
+}
+
+.Projects {
     background-color: yellow;
 }
 .project {
@@ -7,18 +12,11 @@
 }
 .image {
     width: 300px;
+    max-width: 300px;
     background-color: grey;
-    float: left;
-}
-img {
-    width: inherit;
-    float: left;
+    float: right;
 }
 .paragraf {
-    float: right;
     background-color: blue;
-}
-p {
-    float:inherit;
 }
 
