@@ -6,6 +6,7 @@
 .project {
     background-color: green;
     min-height: 300px;
+    padding: 67px 10px 0px 10px;
 }
 
 .image {
