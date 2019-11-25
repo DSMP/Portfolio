@@ -13,3 +13,13 @@
 .fifth{
     background-color:#fcdbff;
 }
+.myrow{
+    margin:50px 0px 50px 0px;
+}
+.container-padding{
+    padding-bottom:50px;
+}
+.btn-size{
+    width:8em;
+    height:4em;
+}
