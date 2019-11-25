@@ -28,22 +28,22 @@ export class Home extends Component {
                         </div>
                     </div>
                 </div>
-                <div class="container-fluid container-height second">
+                <div class="container-fluid container-height d-flex align-content-center flex-wrap justify-content-center second">
                     <h1 class="display-3 text-monospace text-center">
                         Mobile App Development
               </h1>
                 </div>
-                <div class="container-fluid container-height third">
+                <div class="container-fluid container-height d-flex align-content-center flex-wrap justify-content-center third">
                     <h1 class="display-3 text-monospace text-center">
                         Web Design and Development
               </h1>
                 </div>
-                <div class="container-fluid container-height fourth">
+                <div class="container-fluid container-height d-flex align-content-center flex-wrap justify-content-center fourth">
                     <h1 class="display-3 text-monospace text-center">
                         Simple desktop application
               </h1>
                 </div>
-                <div class="container-fluid container-height fifth">
+                <div class="container-fluid container-height d-flex align-content-center flex-wrap justify-content-center fifth">
                     <h1 class="display-3 text-monospace text-center">
                         Custom solutions
               </h1>
