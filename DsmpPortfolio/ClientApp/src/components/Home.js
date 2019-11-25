@@ -28,22 +28,22 @@ export class Home extends Component {
                         </div>
                     </div>
                 </div>
-                <div class="jumbotron second">
+                <div class="container-fluid second">
                     <h1 class="display-3 text-monospace text-center">
                         Mobile App?
               </h1>
                 </div>
-                <div class="jumbotron third">
+                <div class="container-fluid third">
                     <h1 class="display-3 text-monospace text-center">
                         Web App?
               </h1>
                 </div>
-                <div class="jumbotron fourth">
+                <div class="container-fluid fourth">
                     <h1 class="display-3 text-monospace text-center">
                         Desktop app?
               </h1>
                 </div>
-                <div class="jumbotron fifth">
+                <div class="container-fluid fifth">
                     <h1 class="display-3 text-monospace text-center">
                         Other solution?
               </h1>
